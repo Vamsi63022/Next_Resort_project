@@ -889,3 +889,245 @@ link:hover {
     text-align: center;
   }
 }
+
+@media screen and (max-width: 575px) {
+
+  /* Auth / Login Form */
+  .formContainer {
+    padding: 15px;
+  }
+
+  .formContainer > h1 {
+    font-size: 1.8rem;
+  }
+
+  .formSection {
+    border: 2px solid white;
+    width: 90%;
+    max-width: 100%;
+    padding: 25px;
+  }
+
+  .formSection h3 {
+    width: 100%;
+  }
+
+  /* Navigation */
+  .navSection {
+    width: 100%;
+    height: auto;
+    gap: 15px;
+    padding: 15px;
+    font-size: x-small;
+    flex-wrap: wrap;
+  }
+
+  .title {
+    font-size: x-small;
+  }
+
+  .title h2 {
+    font-size: 1.3rem;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  /* Hero / Product Section */
+  .productSection {
+    height: fit-content;
+    padding: 15px;
+  }
+
+  .productSection h1 {
+    font-size: 1.7rem;
+  }
+
+  .proDetail {
+    display: block;
+    padding: 15px;
+  }
+
+  .left {
+    width: 100%;
+    background: #bdd5ed;
+  }
+
+  .left .title {
+    font-size: 1rem;
+  }
+
+  .center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .roomImage {
+    width: 100%;
+    max-width: 265px;
+    margin-top: -10px;
+    height: 200px;
+  }
+
+  .price {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    font-size: 1.5rem;
+  }
+
+  .detail {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  /* Single Room Page */
+  .singleSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    padding: 15px;
+  }
+
+  .singleLeft h2 {
+    font-size: 1.4rem;
+  }
+
+  .singleImage {
+    width: 100%;
+    height: 200px;
+    margin-left: 0;
+  }
+
+  .singleCenter {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .singleTitle {
+    text-align: center;
+  }
+
+  .singlePrice {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.4rem;
+  }
+
+  .singleDesc {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .singleAmen {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .offer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .singleBtn button {
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  /* Calendar Section */
+  .calenderSection {
+    flex-direction: column;
+    width: 90%;
+    gap: 15px;
+    padding: 15px 20px;
+  }
+
+  .currentDate {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .calenderButton {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .dateRange {
+    left: 15px;
+  }
+
+  /* Loading */
+  .loading {
+    margin-left: -100px;
+  }
+
+  /* Invoice */
+  .invoice-container {
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .invoice-container h1 {
+    font-size: 20px;
+  }
+
+  .booking-item h3 {
+    font-size: 17px;
+  }
+
+  .booking-item p {
+    font-size: 14px;
+  }
+
+  .booking-item h4 {
+    font-size: 16px;
+  }
+
+  /* Rooms listing / filter layout */
+  .mainHeading {
+    font-size: 1.8rem;
+    margin: 20px 0;
+  }
+
+  .mainLayout {
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .filterSidebar {
+    width: 100%;
+    min-width: 100%;
+    position: unset;
+    padding: 15px;
+  }
+
+  /* Footer */
+  .footerContainer {
+    flex-direction: column;
+    padding: 25px 15px;
+    gap: 20px;
+  }
+
+  .footerSection {
+    text-align: center;
+    min-width: 100%;
+  }
+
+  .footerBottom {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+}
